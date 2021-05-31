@@ -1,0 +1,743 @@
+<mxfile>
+    <diagram id="V4xiKeR7_rtbhooICg1S" name="Privileges by Role">
+        <mxGraphModel dx="609" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1650" pageHeight="8100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="80" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Verify Logged Times in T.M.T- Admin Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="90" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="560" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Verify Attendance by Date based on T.M.T" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="580" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="960" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Create Countries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="980" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1360" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Create Accounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="1380" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="82.5" y="2590" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Create Transactions Type (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="147.5" y="2610" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="2980" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Log&amp;nbsp; Transactions (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="145" y="3000" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mPL6a-ZRlcpmhWp3wNN8-18" target="mPL6a-ZRlcpmhWp3wNN8-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mPL6a-ZRlcpmhWp3wNN8-18" target="mPL6a-ZRlcpmhWp3wNN8-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-18" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="130" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-19" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mPL6a-ZRlcpmhWp3wNN8-20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="159.5" as="sourcePoint"/>
+                        <mxPoint x="120" y="159.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-20" value="Selects Account&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="130" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-21" value="Selects Date Range" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="210" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-22" value="Verifies Data for all analysts in account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="290" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="mPL6a-ZRlcpmhWp3wNN8-27" value="An Admin can verify the data for any account and date range, just by selecting the desired options in the Drop-Down menus." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="370" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9UfVAfvuS2A0FMlGvvwg-17" target="9UfVAfvuS2A0FMlGvvwg-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9UfVAfvuS2A0FMlGvvwg-17" target="9UfVAfvuS2A0FMlGvvwg-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-17" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="620" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-18" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9UfVAfvuS2A0FMlGvvwg-19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="649.5" as="sourcePoint"/>
+                        <mxPoint x="120" y="649.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-19" value="Selects Account&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="620" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-20" value="Selects Date Range" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="700" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-21" value="Verifies Data for all analysts in account" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="780" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9UfVAfvuS2A0FMlGvvwg-22" value="&lt;span style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;An Admin can verify the data for any account and date range, just by selecting the desired options in the Drop-Down menus.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="870" width="320" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="GcSmuyqadpREne5SpD2r-15" target="GcSmuyqadpREne5SpD2r-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" edge="1" parent="1" source="GcSmuyqadpREne5SpD2r-15" target="GcSmuyqadpREne5SpD2r-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-15" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="1040" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-16" value="Enter country name" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1040" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-17" value="Save Name" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1130" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-18" value="Only Admin can create countries" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="95" y="1260" width="335" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;" edge="1" parent="1" source="GcSmuyqadpREne5SpD2r-23" target="GcSmuyqadpREne5SpD2r-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.005;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FFFFFF;" edge="1" parent="1" source="GcSmuyqadpREne5SpD2r-23" target="GcSmuyqadpREne5SpD2r-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-23" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="1430" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-24" value="Enter country name" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1430" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-25" value="Save Name" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="1520" width="210" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-26" value="Only Admin can create accounts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="97.5" y="1660" width="335" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-27" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="1730" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-28" value="Create Default Schedule (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="155" y="1750" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-29" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="85" y="2150" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-30" value="Edit Default Schedule (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="2170" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="GcSmuyqadpREne5SpD2r-31" value="Select Account" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="1800" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-15" value="Select Analyst" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="1860" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-16" value="Select Day (Mon,Tue,Wed,Thu, Fri, Sat, Sun)" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1920" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-17" value="Enter schedule details" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="1980" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="Jo1oZv6Jjn2s_eKi02zX-21" target="GcSmuyqadpREne5SpD2r-31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="Jo1oZv6Jjn2s_eKi02zX-21" target="Jo1oZv6Jjn2s_eKi02zX-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="Jo1oZv6Jjn2s_eKi02zX-21" target="Jo1oZv6Jjn2s_eKi02zX-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="Jo1oZv6Jjn2s_eKi02zX-21" target="Jo1oZv6Jjn2s_eKi02zX-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-21" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="1800" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="Jo1oZv6Jjn2s_eKi02zX-26" value="An amdin can set the default schedule for any analyst in any account.&amp;nbsp; The Admin just has to select the Account, Analyst, Day and enter the schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="2050" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="80" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-16" value="Verify Logged Times in T.M.T&amp;nbsp;- Sup. Role" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="90" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="tsNP_6nI2NVErJh-ssLC-17" target="tsNP_6nI2NVErJh-ssLC-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="tsNP_6nI2NVErJh-ssLC-17" target="tsNP_6nI2NVErJh-ssLC-19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-17" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="130" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-18" value="Selects Date Range" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="210" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-19" value="Verifies Data for his team" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="290" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-20" value="A Sup can verify the data for his account only by selecting the date range in the Drop-Down menu." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="370" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="tsNP_6nI2NVErJh-ssLC-21" value="(Account Option will be grayed out. It will be selected by Default)" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;strokeColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="140" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="80" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-16" value="Verify Logged Times in T.M.T&amp;nbsp;- Analyst. Role" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="1120" y="90" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-17" value="Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="130" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-18" value="Selects Date Range" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="210" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-19" value="Verifies his data only" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="290" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-20" value="An Analyst can verify his login times only. The analyst selects the date range and then, he can see the data." style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="370" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="niXOQWrZjMhop8Y-sCdn-21" value="(Account Option will be grayed out. It will selected by Default)" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;strokeColor=#00994D;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="130" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="560" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-16" value="Verify Attendance by Date based on T.M.T" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="580" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="1" source="4NfV1Em_67vbUjUZh0pS-19" target="4NfV1Em_67vbUjUZh0pS-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;" edge="1" parent="1" source="4NfV1Em_67vbUjUZh0pS-19" target="4NfV1Em_67vbUjUZh0pS-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-19" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="620" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-20" value="Selects Date Range" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="700" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-21" value="Verifies Data for his team" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="780" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-22" value="(Account Option will be grayed out. It will be selected by Default)" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="630" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4NfV1Em_67vbUjUZh0pS-23" value="&lt;span style=&quot;color: rgb(240 , 240 , 240)&quot;&gt;A Sup can verify the data for his account only by selecting the date range in the Drop-Down menu.&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="585" y="860" width="325" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="560" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-16" value="Verify Attendance by Date based on T.M.T" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="580" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00CC00;" edge="1" parent="1" target="NTFOrYgd5b2h-dxktYYJ-19">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1015" y="660" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-18" value="Selects Date Range" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="1105" y="710" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-19" value="Verifies his data only" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="790" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-20" value="(Account Option will be grayed out. It will selected by Default)" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666666;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="1145" y="630" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#666666;strokeColor=#00CC00;" edge="1" parent="1" source="NTFOrYgd5b2h-dxktYYJ-22" target="NTFOrYgd5b2h-dxktYYJ-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NTFOrYgd5b2h-dxktYYJ-22" value="Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="980" y="620" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPLmzdlvtsGSTveLBOuY-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="960" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPLmzdlvtsGSTveLBOuY-16" value="Create Countries" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="980" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPLmzdlvtsGSTveLBOuY-17" value="&lt;i&gt;Supervisors cannot create countries&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="1040" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPLmzdlvtsGSTveLBOuY-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="960" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPLmzdlvtsGSTveLBOuY-19" value="Create Countries" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="980" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="nPLmzdlvtsGSTveLBOuY-20" value="&lt;i&gt;Analysts cannot create countries&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="1040" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="1360" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-16" value="Create Accounts" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="1380" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-17" value="&lt;i&gt;Supervisors cannot create accounts&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="1440" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="1360" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-19" value="Create Accounts" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="1380" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-20" value="&lt;i&gt;Analysts cannot create accounts&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="1440" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="1730" width="360" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-22" value="Create Default Schedule (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="645" y="1750" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-24" value="Select Analyst" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="1860" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-25" value="Select Day (Mon,Tue,Wed,Thu, Fri, Sat, Sun)" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="695" y="1920" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-26" value="Enter schedule details" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="695" y="1980" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-31" target="JqN_Ya065ckCOMInP_p_-24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-31" target="JqN_Ya065ckCOMInP_p_-25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-31" target="JqN_Ya065ckCOMInP_p_-26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-31" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="1800" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-32" value="A Sup. can only set the default schedule for his team. The default schedule will be repeated week after week." style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="2030" width="320" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-33" value="&lt;i&gt;Select Account option grayed out&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="685" y="1810" width="112.5" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-34" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1050" y="1740" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-35" value="Create Schedules" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="1760" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-36" value="&lt;i&gt;Analysts cannot create default schedules&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="1820" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-37" value="Select Account" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="2220" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-38" value="Select Analyst" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="2280" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-39" value="Select Day (Mon,Tue,Wed,Thu, Fri, Sat, Sun)" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="2340" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-40" value="Edit schedule details" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="225" y="2400" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-45" target="JqN_Ya065ckCOMInP_p_-37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-45" target="JqN_Ya065ckCOMInP_p_-38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-45" target="JqN_Ya065ckCOMInP_p_-39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-45" target="JqN_Ya065ckCOMInP_p_-40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-45" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="2220" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-46" value="An admin can edit the schedule for any analyst in any account by selecting the corresponding dropdowns and entering the data.&amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="2460" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-47" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="575" y="2150" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-48" value="Edit Default Schedule (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="2170" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-50" value="Select Analyst" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="2280" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-51" value="Select Day (Mon,Tue,Wed,Thu, Fri, Sat, Sun)" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="715" y="2340" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-52" value="Edit schedule details" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="715" y="2400" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-57" target="JqN_Ya065ckCOMInP_p_-50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-57" target="JqN_Ya065ckCOMInP_p_-51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-57" target="JqN_Ya065ckCOMInP_p_-52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-57" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="2220" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-58" value="A supervisor can edit the default schedule for his team only" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="2460" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-59" value="&lt;i&gt;Account option will be grayed out&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="720" y="2235" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-60" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1055" y="2150" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-61" value="Edit Schedules" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1120" y="2170" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-62" value="&lt;i&gt;Analysts cannot edit schedules&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1155" y="2230" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-63" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="97.5" y="3970" width="352.5" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-64" value="View Transactions Logged" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="163.75" y="4000" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-67" value="Select Account" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="197.5" y="2650" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-68" value="Enter new Transaction Type" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="202.5" y="2770" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-69" value="Save Transaction Type" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="2830" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-70" value="Verify that the Transaction Type does not exist yet" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="202.5" y="2710" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-71" value="Admin selects the account, verifies that the transaction type does not exist yet, and then enters the new one." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="2890" width="340" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-72" target="JqN_Ya065ckCOMInP_p_-67">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-72" target="JqN_Ya065ckCOMInP_p_-70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-72" target="JqN_Ya065ckCOMInP_p_-68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-72" target="JqN_Ya065ckCOMInP_p_-69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-72" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="2650" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-77" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="2590" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-78" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="525" y="2660" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-79" value="&lt;i&gt;Supervisors cannot create Transactions Type&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="715" y="2675" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-83" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1055" y="2590" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-84" value="&lt;i&gt;Aanlysts cannot create Transactions Type&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1155" y="2670" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-86" value="&lt;i&gt;Admins do not have schedules. Therefore, they do not log transactions. For testing an Analyst user must be used.&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="3070" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-87" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="2980" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-88" value="&lt;i&gt;Sups do not have schedules. Therefore, they do not log transactions. For testing an Analyst user must be used.&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="715" y="3065" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-89" value="" style="whiteSpace=wrap;html=1;strokeColor=#00FF00;imageAspect=1;resizable=1;expand=1;" vertex="1" parent="1">
+                    <mxGeometry x="1055" y="2990" width="455" height="950" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-90" target="JqN_Ya065ckCOMInP_p_-95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-90" target="JqN_Ya065ckCOMInP_p_-96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-90" target="JqN_Ya065ckCOMInP_p_-98">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-90" target="JqN_Ya065ckCOMInP_p_-100">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-90" target="JqN_Ya065ckCOMInP_p_-101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-90" value="Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00CC00;" vertex="1" parent="1">
+                    <mxGeometry x="1000" y="3240" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-91" value="Log&amp;nbsp; Transactions (Based on Each Account)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1165" y="3010" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-92" value="&lt;i&gt;Date Picker will be grayed out and the date of the present day will be used by default&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="3085" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-94" value="&lt;i&gt;Analyst name will be not visible and will be based on who is logged in&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1230" y="3180" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-95" value="Select Transaction Type from drop-down" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1215" y="3240" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-96" value="Enter Contact Lead Key (Sales ID)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1215" y="3340" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-98" value="Enter recording ID" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1215" y="3440" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-100" value="Enter Duration (validation to enter HH:MM:SS)" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1215" y="3540" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-101" value="Fill out Dynamic Free Form" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1220" y="3640" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-107" value="Analyst will enter the requested data.&amp;nbsp;&lt;br&gt;&lt;div&gt;&lt;span&gt;Analyst will fill out the dynamic free form baseed on the transaction type he is completing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;** The extra time for research and so, will be added automatically based on the account and type of transaction.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="3770" width="450" height="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-108" value="" style="endArrow=classic;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="239.5" y="3410" as="sourcePoint"/>
+                        <mxPoint x="240" y="3860" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-109" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="98.75" y="4610" width="352.5" height="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-110" value="Create Extra Times" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="152.5" y="4630" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-111" target="JqN_Ya065ckCOMInP_p_-113">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-111" target="JqN_Ya065ckCOMInP_p_-114">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-111" value="Select Account or Specific Analyst" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="222.5" y="4140" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-112" value="Select Date Range" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="222.5" y="4050" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-113" value="Verify data Date, Transaction Type, total duration, total research time,&amp;nbsp; + any other extra time allowed, grand total time" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="4230" width="145" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-114" value="Verify data Date, hours scheduled, hours in duration, hours in extra time, total time logged and % of Production Reached" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="4230" width="145" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-118" value="by Account" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="145" y="4180" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-119" value="by Agent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="4180" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-120" value="An admin can seelect and see that data for any account or agent." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="4410" width="350" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-121" target="JqN_Ya065ckCOMInP_p_-112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFFFFF;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-121" target="JqN_Ya065ckCOMInP_p_-111">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-121" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="4070" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-124" value="" style="whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="617.5" y="3960" width="352.5" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-125" value="View Transactions Logged" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="683.75" y="3990" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-128" target="JqN_Ya065ckCOMInP_p_-130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-128" target="JqN_Ya065ckCOMInP_p_-131">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-128" value="(Only the supervisor account will be available) or Agent" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="742.5" y="4130" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-129" value="Select Date Range" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="742.5" y="4040" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-130" value="Verify data Date, Transaction Type, total duration, total research time,&amp;nbsp; + any other extra time allowed, grand total time" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="4220" width="145" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-131" value="Verify data Date, hours scheduled, hours in duration, hours in extra time, total time logged and % of Production Reached" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="825" y="4220" width="145" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-132" value="by Account" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="665" y="4170" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-133" value="by Agent" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="4170" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-134" value="A Supervisor can only see the data for his team" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="4400" width="350" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-137" target="JqN_Ya065ckCOMInP_p_-129">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#0000FF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-137" target="JqN_Ya065ckCOMInP_p_-128">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-137" value="Supervisor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="4060" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-138" value="" style="whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1087.5" y="3970" width="352.5" height="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-139" value="View Transactions Logged" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1153.75" y="4000" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeColor=#00FF00;" edge="1" parent="1" target="JqN_Ya065ckCOMInP_p_-145">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1272.5" y="4220" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-143" value="Select Date Range" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1212.5" y="4050" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-145" value="Verify data Date, hours scheduled, hours in duration, hours in extra time, total time logged and % of Production Reached" style="ellipse;whiteSpace=wrap;html=1;fontColor=#FFFFFF;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="4170" width="145" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-148" value="An agent can only see his data" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="4410" width="350" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeColor=#00FF00;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-151" target="JqN_Ya065ckCOMInP_p_-143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#00FF00;fontColor=#FFFFFF;" edge="1" parent="1" source="JqN_Ya065ckCOMInP_p_-151" target="JqN_Ya065ckCOMInP_p_-145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-151" value="Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="4070" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-155" value="Select Account" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="195" y="4690" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-156" value="Select Applicable Transaction Type" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="4790" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-157" value="Enter Extra Time Name. E.g. &quot;Free Form + Research + Documentation&quot;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="4890" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-158" value="Enter extra time duration" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="4990" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-159" value="To add an extra duration, the Admin selects the account and transaction type to apply the extra time, then he creates an explanatory name for the extra time and its duration.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="98.75" y="5080" width="351.25" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-160" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#0000FF;" vertex="1" parent="1">
+                    <mxGeometry x="617.5" y="4610" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-161" value="&lt;i&gt;Sups cannot create Extra Times.&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="762.5" y="4695" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-162" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#00FF00;" vertex="1" parent="1">
+                    <mxGeometry x="1087.5" y="4620" width="350" height="350" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-163" value="&lt;i&gt;Analysts cannot create Extra Times.&lt;/i&gt;" style="text;html=1;strokeColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;fillColor=#2a2a2a;" vertex="1" parent="1">
+                    <mxGeometry x="1220" y="4710" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-164" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="450" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-165" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="710" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-166" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="1580" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-167" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="1220" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-168" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="372.5" y="1950" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-169" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="2360" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-170" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="2800" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-171" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="355" y="3210" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-172" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="383.75" y="4340" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-173" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="385" y="4960" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-175" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="250" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-176" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="760" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-177" value="Permissions:&lt;br&gt;Read" style="text;html=1;strokeColor=#3A5431;fillColor=#6d8764;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="920" y="750" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-178" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="852.5" y="1950" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-179" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Create&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="852.5" y="2350" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-180" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Update&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Deactivate&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Activate&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="885" y="4340" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-181" value="&lt;font color=&quot;#ffff00&quot;&gt;Permissions:&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1340" y="230" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-182" value="Permissions:&lt;br&gt;Read" style="text;html=1;strokeColor=#3A5431;fillColor=#6d8764;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1390" y="740" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-183" value="Permissions:&lt;br&gt;Creatae&lt;br&gt;Read&lt;br&gt;Deactivate&amp;nbsp;&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1480" y="3320" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="JqN_Ya065ckCOMInP_p_-184" value="Permissions:&lt;br&gt;Read" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="1438" y="4220" width="40" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
